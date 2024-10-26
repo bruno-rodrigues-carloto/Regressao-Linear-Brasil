@@ -26,36 +26,36 @@ y_pred = modelo_brc.predizer(X_teste)
 ## Sobre o pacote
 O pacote é composto pela classe RegressaoLinearBRC que contém os seguintes métodos:
 
-1. **ajuste():**
+1. **ajuste( ):**
 
 Recebe os dados de treinamento, tanto as variáveis dependentes X quanto a variável dependente y, para cálculo matricial e ajuste do modelo.
 Respectivamente recebe as variáveis independentes X e a variável dependente y.
 
-2. **predizer():**
+2. **predizer( ):**
 
 Recebe somente as variáveis independentes X de teste ou os dados de predição após implementação/aplicação do modelo.
 
-3. **equacao():**
+3. **equacao( ):**
 
 O objetivo desse método é apenas evidenciar a equação da regressão.
 Não se fornece qualquer parâmetro para o método.
 
-4. **erro_absoluto_medio():**
+4. **erro_absoluto_medio( ):**
 
 Esse método calcula o erro absoluto médio.
 Para usá-lo, basta passar os valores reais da variável dependente/resposta.
 
-5. **erro_quadrado_medio():**
+5. **erro_quadrado_medio( ):**
 
 Esse método calcula o erro quadrado médio.
 Para usá-lo, basta passar os valores reais da variável dependente/resposta.
 
-6. **raiz_quadrada_erro_quadrado_medio():**
+6. **raiz_quadrada_erro_quadrado_medio( ):**
 
 Esse método calcula a raiz do erro quadrado médio.
 Para usá-lo, basta passar os valores reais da variável dependente/resposta.
 
-7. **r_quadrado():**
+7. **r_quadrado( ):**
 
 Esse método é o coeficiente determinante. Ele calcula o quanto as variáveis independentes X explicam a variabilidade da variável dependente y.
 
@@ -64,7 +64,7 @@ Quanto mais próximo de 1, mais X explica a variabilidade de y.
 Sua desvantagem é que quanto mais variável independente há, mais seu valor é maior. 
 Nesses casos, o coeficiente determinante ajustado é mais indicado.
 
-8. **r_quadrado_ajustado():**
+8. **r_quadrado_ajustado( ):**
 
 Esse método é o coeficiente determinante ajustado. Ele calcula o quanto as variáveis independentes X explicam a variabilidade da variável dependente y.
 
