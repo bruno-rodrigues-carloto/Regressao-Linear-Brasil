@@ -9,7 +9,7 @@ Cole o seguinte código em uma célula do Jupyter Lab ou Google Colab:
 `!wget https://raw.githubusercontent.com/bruno-rodrigues-carloto/Regressao-Linear-Brasil/refs/heads/main/regressao-linear-brasil/modelo_regressao_linear_brasil.py`
 
 ## Importando a classe
-`**from** modelo_regressao_linear_brasil **import** RegressaoLinearBRC`
+`from modelo_regressao_linear_brasil import RegressaoLinearBRC`
 
 Para uso da classe, segue-se o mesmo padrão do `LinearRegression` do **scikit-learn**.
 
