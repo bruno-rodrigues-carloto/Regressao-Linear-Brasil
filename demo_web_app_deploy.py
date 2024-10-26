@@ -27,10 +27,10 @@ st.sidebar.markdown("- [Mercadados](https://brunnocarlotosjob.wixsite.com/mercad
     
 st.header('Regressão Linear BRC')
 st.subheader('Olá! Eu sou um algoritmo de regressão liinear desenvolvido em língua portuguesa')
+st.markdown('Aqui temos um experimento em que presumo o preço do arroz com base no preço do feijão.')
 st.markdown(' ')
 usuario =  st.text_input('Gostaria de saber seu nome.')
 st.markdown(' ')
-st.markdown('Aqui temos um experimento em que presumo o preço do arroz com base no preço do feijão.')
 
 preco_feijao = st.number_input(f'{usuario}, defina o preço do feijão para que eu estime o preço do arroz.')
 
