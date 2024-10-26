@@ -45,8 +45,4 @@ y_ajustado = float(np.round(y, 2))
 
 #Aplicando a inteligência
 st.subheader('Resultado')
-#Carregando modelos
-
-#Aplicando a inteligência
-st.subheader('Resultado')
-st.markdown(f'{usuario}, a R${preco_feijao}, o preço do arroz é estimado em R${y_ajustado}.')
+st.markdown(f'{usuario}, a {preco_feijao} reais, o preço do arroz é estimado em {y_ajustado} reais.')
