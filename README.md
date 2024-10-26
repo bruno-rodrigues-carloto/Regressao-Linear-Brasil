@@ -24,7 +24,7 @@ y_pred = modelo_brc.predizer(X_teste)
 ```
 
 ## Sobre o pacote
-O pacote é composto pela classe **RegressaoLinearBRC** que contém os seguintes métodos:
+O pacote é composto pela classe **RegressaoLinearBRC** - *BRC referente a Bruno Rodrigues Carloto* - que contém os seguintes métodos:
 
 1. **ajuste( ):**
 
