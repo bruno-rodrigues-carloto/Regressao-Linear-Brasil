@@ -1,9 +1,13 @@
 #Importando bibliotecas
+!wget https://raw.githubusercontent.com/bruno-rodrigues-carloto/Regressao-Linear-Brasil/refs/heads/main/regressao-linear-brasil/modelo_regressao_linear_brasil.py
+
 import pandas as pd
 import numpy as np
 from PIL import Image
 import pickle
 import streamlit as st
+
+from modelo_regressao_linear_brasil import RegressaoLinearBRC
 
 #Indicando sidebar
 st.markdown('*__Observação: para mais informações acerca do projeto, clique na seta no canto esquerdo superior da tela__* ')
