@@ -4,7 +4,7 @@ Neste repositório, disponibilizo um pacote em português para desenvolvimento d
 Além do pacote, disponibilizo o arquivo .ipynb que demonstra o sucesso da classe `RegressaoLinearBRC` e seus métodos e a base usada para a validação.
 
 ## Obtendo o pacote
-Cole o seguinte comando e URL em uma célula do Jupyter Lab ou Google Colab:
+Cole o seguinte código em uma célula do Jupyter Lab ou Google Colab:
 
 `!wget https://raw.githubusercontent.com/bruno-rodrigues-carloto/Regressao-Linear-Brasil/refs/heads/main/regressao-linear-brasil/modelo_regressao_linear_brasil.py`
 
