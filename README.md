@@ -3,6 +3,8 @@ Neste repositório, disponibilizo um pacote em português para desenvolvimento d
 
 Além do pacote, disponibilizo o arquivo .ipynb que demonstra o sucesso da classe `RegressaoLinearBRC` e seus métodos e a base usada para a validação.
 
+Você pode experimentar o modelo em deploy clicando [aqui](https://regressao-linear-brasil-brc.streamlit.app/).
+
 ## Obtendo o pacote
 Cole o seguinte código em uma célula do Jupyter Lab ou Google Colab:
 
