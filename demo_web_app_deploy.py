@@ -38,7 +38,7 @@ preco_feijao = st.number_input(f'{usuario}, defina o preço do feijão para que 
 # with open('Modelo_RegressaoLinearBRC.pkl', 'rb') as f:
   #  modelo_carregado = pickle.load(f)
         
-X = [preco_feijao]
+X = preco_feijao
 y = 5.564934583749978 + 0.9174417727028592 * X
 # y = modelo_carregado.predizer(X)
 y_ajustado = float(np.round(y, 2))
