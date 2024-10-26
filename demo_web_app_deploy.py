@@ -38,11 +38,12 @@ st.markdown('Aqui temos um experimento em que presumo o preço do arroz com base
 preco_feijao = st.number_input(f'{usuario}, defina o preço do feijão para que eu estime o preço do arroz.')
 
 # RegressãoLinear
-with open('Modelo_RegressaoLinearBRC.pkl', 'rb') as f:
-    modelo_carregado = pickle.load(f)
+# with open('Modelo_RegressaoLinearBRC.pkl', 'rb') as f:
+  #  modelo_carregado = pickle.load(f)
         
 X = [preco_feijao]
-y = modelo_carregado.predizer(X)
+y = 5.564934583749978 + 0.9174417727028592 * X
+# y = modelo_carregado.predizer(X)
 y_ajustado = float(np.round(y, 2))
 
 #Aplicando a inteligência
