@@ -9,6 +9,20 @@ Cole o seguinte comando e URL em uma célula do Jupyter Lab ou Google Colab:
 ## Importando a classe
 `from modelo_regressao_linear_brasil import RegressaoLinearBRC`
 
+Para uso da classe, segue-se o mesmo padrão do `LinearRegression` do **scikit-learn**.
+
+**Exemplo:**
+```
+# Instanciando modelo BRC
+modelo_brc = RegressaoLinearBRC()
+
+# Realizando ajuste do modelo BRC
+modelo_brc.ajuste(X_treinamento, y_treinamento)
+
+# Predição
+y_pred = modelo_brc.predizer(X_teste)
+```
+
 ## Sobre o pacote
 O pacote é composto pela classe RegressaoLinearBRC que contém os seguintes métodos:
 
