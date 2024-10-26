@@ -15,7 +15,7 @@ st.markdown('*__Observação: para mais informações acerca do projeto, clique 
 st.sidebar.subheader('Bruno Rodrigues Carloto')
 st.sidebar.markdown('Profissional de Analytics')
 st.sidebar.markdown('#### Desenvolvimento de Algoritmo de Regressão Linear')
-st.sidebar.markdown('''Leia o [notebook de validação do algoritmo](https://github.com/bruno-rodrigues-carloto/Regressao-Linear-Brasil/blob/main/Valida%C3%A7%C3%A3o%20do%20algoritmo%20RegressaoLinearBRC.ipynb).''')
+st.sidebar.markdown('''Leia o [notebook de validação do algoritmo](https://github.com/bruno-rodrigues-carloto/Regressao-Linear-Brasil/blob/main/regressao-linear-brasil/Desenvolvimento/Valida%C3%A7%C3%A3o%20do%20algoritmo%20RegressaoLinearBRC.ipynb).''')
 # pag = st.sidebar.selectbox('Selecione a página', ['Interagir com a inteligência', 'Dashboard da base de dados do projeto'])
 
 st.sidebar.markdown('Feito por : Bruno Rodrigues Carloto')
