@@ -31,7 +31,7 @@ usuario =  st.text_input('Gostaria de saber seu nome.')
 st.markdown(' ')
 st.markdown('Aqui temos um experimento em que presumo o preço do arroz com base no preço do feijão.')
 
-preco_feijao = st.number_input(usuario, ', defina o preço do feijão para que eu estime o preço do arroz.')
+preco_feijao = st.number_input(f'{usuario}, defina o preço do feijão para que eu estime o preço do arroz.')
 
 # RegressãoLinear
 with open('Modelo_RegressaoLinearBRC.pkl', 'rb') as f:
@@ -47,4 +47,4 @@ st.subheader('Resultado')
 
 #Aplicando a inteligência
 st.subheader('Resultado')
-st.markdown(f'A R${preco_feijao}, o preço do arroz é estimado em R${y_ajustado}.')
+st.markdown(f'{usuario}, a R${preco_feijao}, o preço do arroz é estimado em R${y_ajustado}.')
