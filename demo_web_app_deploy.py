@@ -4,7 +4,7 @@ from PIL import Image
 import pickle
 import streamlit as st
 
-from modelo_regressao_linear_brasil import RegressaoLinearBRC
+# from modelo_regressao_linear_brasil import RegressaoLinearBRC
 
 #Indicando sidebar
 st.markdown('*__Observação: para mais informações acerca do projeto, clique na seta no canto esquerdo superior da tela__* ')
