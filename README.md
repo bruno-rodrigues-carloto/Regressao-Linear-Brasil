@@ -6,7 +6,7 @@ Além do pacote, disponibilizo o arquivo .ipynb que demonstra o sucesso da class
 Você pode experimentar o modelo em produção clicando [aqui](https://regressao-linear-brasil-brc.streamlit.app/).
 
 ## Obtendo o pacote
-Cole o seguinte código em uma célula do Jupyter Lab ou Google Colab:
+Cole o seguinte código em uma célula de ambientes de desenvolvimento como Google Colab e Jupyter Lab:
 
 `!wget https://raw.githubusercontent.com/bruno-rodrigues-carloto/Regressao-Linear-Brasil/refs/heads/main/regressao-linear-brasil/modelo_regressao_linear_brasil.py`
 
