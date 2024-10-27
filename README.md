@@ -11,6 +11,7 @@ Cole o seguinte código em uma célula de ambientes de desenvolvimento como Goog
 `!wget https://raw.githubusercontent.com/bruno-rodrigues-carloto/Regressao-Linear-Brasil/refs/heads/main/regressao-linear-brasil/modelo_regressao_linear_brasil.py`
 
 ## Importando a classe
+Para importar a classe, use o código:
 `from modelo_regressao_linear_brasil import RegressaoLinearBRC`
 
 Para uso da classe, segue-se o mesmo padrão do `LinearRegression` do **scikit-learn**.
