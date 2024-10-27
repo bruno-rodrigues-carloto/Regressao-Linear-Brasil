@@ -1,7 +1,7 @@
 # Regressao-Linear-Brasil
 Neste repositório, disponibilizo um pacote em português para desenvolvimento de modelos de regressão linear. O pacote contém as principais métricas de validação como métodos da classe `RegressaoLinearBRC`, as quais são MAE, MSE, RMSE, R² e R² Ajustado.
 
-Além do pacote, disponibilizo o arquivo .ipynb que demonstra o sucesso da classe `RegressaoLinearBRC` e seus métodos e a base usada para a validação.
+Além do pacote, disponibilizo o arquivo .ipynb que demonstra o sucesso da classe `RegressaoLinearBRC` e seus métodos e a base usada para a validação. Você pode encontrá-los na pasta [Desenvolvimento](https://github.com/bruno-rodrigues-carloto/Regressao-Linear-Brasil/tree/main/regressao-linear-brasil/Desenvolvimento).
 
 Você pode experimentar o modelo em produção clicando [aqui](https://regressao-linear-brasil-brc.streamlit.app/).
 
