@@ -76,4 +76,4 @@ Sua vantagem é não permitir que o excesso de variáveis independentes irreleva
 Quanto mais próximo de 1, mais X explica a variabilidade de y.
 
 ## Atenção
-O pacote não está disponível no [PyPI](https://pypi.org), dessa forma, não se usa `pip install` e o pacote tende a ser salvo no diretório em que está o notebook, pelo qual você está o baixando. Sendo assim, ao criar um notebook em um novo diretório, você terá que baixar ou copiar o pacote para esse novo diretório. 
+O pacote não está disponível no [PyPI](https://pypi.org), dessa forma não se usa `pip install` e o pacote tende a ser salvo no diretório em que está o notebook, pelo qual você está o baixando. Sendo assim, ao criar um notebook em um novo diretório, você terá que baixar ou copiar o pacote para esse novo diretório. 
