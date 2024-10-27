@@ -32,9 +32,9 @@ st.sidebar.markdown("- [Mercadados](https://brunnocarlotosjob.wixsite.com/mercad
     
 st.header('Regressão Linear BRC')
 st.markdown(' ')
-st.subheader('Olá! Eu sou um algoritmo de regressão linear desenvolvido em língua portuguesa, tendo as métricas clássicas de regressão linear como métodos.')
+st.subheader('Algoritmo made in Brazil, tendo as métricas clássicas de regressão linear como métodos.')
 st.markdown(' ')
-st.markdown('Aqui temos um experimento de um modelo desenvolvido a partir de mim, em que presumimos o preço do arroz com base no preço do feijão.')
+st.markdown('Aqui temos um experimento de um modelo desenvolvido a partir do algoritmo, em que presumimos o preço do arroz com base no preço do feijão.')
 st.markdown(' ')
 usuario =  st.text_input('Gostaria de saber seu nome.')
 st.markdown(' ')
