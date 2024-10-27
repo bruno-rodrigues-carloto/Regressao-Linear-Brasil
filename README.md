@@ -74,3 +74,6 @@ Esse método é o coeficiente determinante ajustado. Ele calcula o quanto as var
 
 Sua vantagem é não permitir que o excesso de variáveis independentes irrelevantes aumentem seu valor.
 Quanto mais próximo de 1, mais X explica a variabilidade de y.
+
+## Atenção
+Pode acontecer de você precisar rodar o comando de instalação do pacote em casos em que você crie um novo diretório, no qual você abrirá um novo notebook. Isso pode acontecer, pois quando você instala o pacote, por padrão ele será baixado no diretório em que está seu notebook, pelo qual você o instalou.
