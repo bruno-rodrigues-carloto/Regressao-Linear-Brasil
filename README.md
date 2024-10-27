@@ -32,8 +32,8 @@ O pacote é composto pela classe **RegressaoLinearBRC** - *BRC referente a Bruno
 
 1. **ajuste( ):**
 
-Recebe os dados de treinamento, tanto as variáveis dependentes X quanto a variável dependente y, para cálculo matricial e ajuste do modelo.
-Respectivamente recebe as variáveis independentes X e a variável dependente y.
+Recebe os dados de treinamento, tanto as variáveis independentes X quanto a variável dependente y, para cálculo matricial e ajuste do modelo.
+Respectivamente deve-se passar primeiramente as variáveis independentes X e em seguida a variável dependente y.
 
 2. **predizer( ):**
 
