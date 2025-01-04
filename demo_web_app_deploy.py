@@ -16,7 +16,7 @@ st.markdown('*__Observação: para mais informações acerca do projeto, clique 
 foto = Image.open('bruno_carloto.jpg')
 st.sidebar.image(foto, use_container_width=True, width=20)
 st.sidebar.subheader('Bruno Rodrigues Carloto')
-st.sidebar.markdown('Profissional de Analytics')
+st.sidebar.markdown('Analista de dados e Política de Crédito')
 st.sidebar.markdown('#### Desenvolvimento de Algoritmo de Regressão Linear')
 st.sidebar.markdown('''Conheça o algoritmo pelo [Read Me](https://github.com/bruno-rodrigues-carloto/Regressao-Linear-Brasil/blob/main/README.md).''')
 st.sidebar.markdown('''Leia o [notebook de validação do algoritmo](https://github.com/bruno-rodrigues-carloto/Regressao-Linear-Brasil/blob/main/regressao-linear-brasil/Desenvolvimento/Valida%C3%A7%C3%A3o%20do%20algoritmo%20RegressaoLinearBRC.ipynb).''')
