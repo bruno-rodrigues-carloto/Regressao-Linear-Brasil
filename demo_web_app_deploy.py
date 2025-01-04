@@ -13,8 +13,8 @@ st.markdown('*__Observação: para mais informações acerca do projeto, clique 
 # --------------- Criação do sidebar ------------------
 
 # Indicando do que se trata a web app
-# foto = Image.open('bruno.carloto (2).png')
-# st.sidebar.image(foto, use_column_width=True)
+foto = Image.open('bruno_carloto.jpg')
+st.sidebar.image(foto, use_container_width=True, width=50)
 st.sidebar.subheader('Bruno Rodrigues Carloto')
 st.sidebar.markdown('Profissional de Analytics')
 st.sidebar.markdown('#### Desenvolvimento de Algoritmo de Regressão Linear')
